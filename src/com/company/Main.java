@@ -11,5 +11,12 @@ public class Main {
         System.out.println(cat.getLegs());
         System.out.println(cat.isFur());
 
+        Pencil pencil = new Pencil(.7, "Dixon", "Orange", false);
+        Pencil pencil1 = new Pencil(.8, "Paper-Mate", false, "Yellow", false);
+        System.out.println("This is pencil: "+pencil.getColor());
+        System.out.println("This is pencil 1: " + pencil1.getColor());
+
+
+
     }
 }
